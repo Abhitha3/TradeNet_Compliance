@@ -1,0 +1,34 @@
+﻿using Microsoft.EntityFrameworkCore;
+using TradeNet11.Models;
+
+namespace TradeNet11.Data
+{
+    public class AppDbContext : DbContext
+    {
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+
+        public DbSet<ComplianceOfficer> ComplianceOfficers => Set<ComplianceOfficer>();
+        public DbSet<ComplianceNotification> ComplianceNotifications => Set<ComplianceNotification>();
+        public DbSet<ComplianceCase> ComplianceCases => Set<ComplianceCase>();
+        public DbSet<Audit> Audits => Set<Audit>();
+        public DbSet<ProgramCompliance> ProgramCompliances => Set<ProgramCompliance>();
+        public DbSet<ComplianceRecord> ComplianceRecords => Set<ComplianceRecord>();
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            // Seed a default compliance officer (password: Admin@123)
+            modelBuilder.Entity<ComplianceOfficer>().HasData(new ComplianceOfficer
+            {
+                Id = 1,
+                Username = "officer1",
+                PasswordHash = "AQAAAAIAAYagAAAAEA==", // placeholder – replace with real hash in production
+                FullName = "Default Compliance Officer",
+                Email = "officer1@tradenet.com",
+                CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, DateTimeKind.Utc),
+                IsActive = true
+            });
+        }
+    }
+}

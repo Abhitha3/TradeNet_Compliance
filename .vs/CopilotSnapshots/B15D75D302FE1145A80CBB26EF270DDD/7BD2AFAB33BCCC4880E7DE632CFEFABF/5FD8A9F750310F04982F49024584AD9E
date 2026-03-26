@@ -1,0 +1,111 @@
+﻿@model IEnumerable<TradeNet11.Models.ComplianceCase>
+@{
+    ViewData["Title"] = "Compliance Dashboard";
+    var cases = Model.ToList();
+    var critical = cases.Count(c => c.Severity == "High" || c.Severity == "Critical");
+    var investigating = cases.Count(c => c.Status == "Investigating");
+    var pending = cases.Count(c => c.Status == "Pending");
+    var resolved = cases.Count(c => c.Status == "Compliant");
+}
+
+<h2 class="page-title">Compliance Dashboard</h2>
+
+<!-- Stat Cards -->
+<div class="stat-grid">
+    <div class="card-stat">
+        <h4>Critical Violations</h4>
+        <div class="value">@critical</div>
+    </div>
+    <div class="card-stat">
+        <h4>Under Investigation</h4>
+        <div class="value">@investigating</div>
+    </div>
+    <div class="card-stat">
+        <h4>Pending Review</h4>
+        <div class="value">@pending</div>
+    </div>
+    <div class="card-stat">
+        <h4>Resolved</h4>
+        <div class="value">@resolved</div>
+    </div>
+</div>
+
+<!-- Compliance Queue -->
+<div class="section">
+    <h3>Compliance Queue</h3>
+    <table class="tn-table">
+        <thead>
+            <tr>
+                <th>Entity</th>
+                <th>ID</th>
+                <th>Business</th>
+                <th>Issue</th>
+                <th>Severity</th>
+                <th>Status</th>
+                <th>Updated</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (!cases.Any())
+            {
+                <tr class="empty-row"><td colspan="8">No cases in queue.</td></tr>
+            }
+            @foreach (var c in cases)
+            {
+                var sevCls = c.Severity switch { "Critical" => "sev-critical", "High" => "sev-high", "Medium" => "sev-medium", _ => "sev-low" };
+                var stCls = "st-" + c.Status.ToLower();
+
+                <tr>
+                    <td>License</td>
+                    <td>@c.LicenseNumber</td>
+                    <td>@c.BusinessName</td>
+                    <td>@c.IssueType</td>
+                    <td><span class="sev @sevCls">@c.Severity</span></td>
+                    <td><span class="st @stCls">@c.Status</span></td>
+                    <td style="color:var(--muted);font-size:12px">@c.ReportedAt.ToString("d")</td>
+                    <td>
+                        <button class="btn-tn btn-accent btn-inspect"
+                                data-case-id="@c.Id"
+                                data-bs-toggle="modal"
+                                data-bs-target="#caseModal">
+                            Inspect
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Inspect Modal -->
+<div class="modal fade" id="caseModal" tabindex="-1" aria-labelledby="caseModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header modal-header-blue">
+                <h5 class="modal-title" id="caseModalLabel">Inspect Case</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="caseModalBody">
+                <div class="text-center py-4">
+                    <div class="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.querySelectorAll('.btn-inspect').forEach(btn => {
+            btn.addEventListener('click', function () {
+                const caseId = this.getAttribute('data-case-id');
+                const modalBody = document.getElementById('caseModalBody');
+                modalBody.innerHTML = '<div class="text-center py-4"><div class="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div></div>';
+                fetch('@Url.Action("CaseDetail", "ComplianceDashboard")/' + caseId)
+                    .then(r => r.text())
+                    .then(html => { modalBody.innerHTML = html; });
+            });
+        });
+    </script>
+}

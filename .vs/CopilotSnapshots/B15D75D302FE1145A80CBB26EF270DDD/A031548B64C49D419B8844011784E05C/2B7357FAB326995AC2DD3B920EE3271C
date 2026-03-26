@@ -1,0 +1,50 @@
+﻿@model IEnumerable<TradeNet11.Models.Audit>
+@{
+    ViewData["Title"] = "Audit & Investigation";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2><i class="bi bi-search"></i> Audit &amp; Investigation</h2>
+    <a asp-action="Create" class="btn btn-success">+ New Audit</a>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-striped table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Business</th>
+                <th>Assigned To</th>
+                <th>Scheduled</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var a in Model)
+            {
+                var statusBadge = a.Status switch
+                {
+                    "Scheduled" => "bg-secondary",
+                    "InProgress" => "bg-primary",
+                    "Completed" => "bg-success",
+                    "Cancelled" => "bg-danger",
+                    _ => "bg-secondary"
+                };
+
+                <tr>
+                    <td>@a.Id</td>
+                    <td>@a.AuditTitle</td>
+                    <td>@a.BusinessName</td>
+                    <td>@(a.AssignedOfficer?.FullName ?? "—")</td>
+                    <td>@a.ScheduledDate.ToString("d")</td>
+                    <td><span class="badge @statusBadge">@a.Status</span></td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@a.Id" class="btn btn-sm btn-outline-primary">View</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

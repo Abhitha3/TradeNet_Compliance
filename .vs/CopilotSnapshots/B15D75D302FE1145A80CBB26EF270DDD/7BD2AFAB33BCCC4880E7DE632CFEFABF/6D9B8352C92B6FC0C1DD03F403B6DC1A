@@ -1,0 +1,68 @@
+﻿@model TradeNet11.Models.Audit
+@{
+    ViewData["Title"] = "Audit Details";
+}
+
+<h2 class="mb-4">Audit: @Model.AuditTitle</h2>
+
+<div class="card shadow mb-4">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-6">
+                <strong>Business:</strong> @Model.BusinessName<br />
+                <strong>Assigned To:</strong> @(Model.AssignedOfficer?.FullName ?? "—")<br />
+                <strong>Scheduled:</strong> @Model.ScheduledDate.ToString("g")
+            </div>
+            <div class="col-md-6">
+                <strong>Status:</strong> @Model.Status<br />
+                <strong>Completed:</strong> @(Model.CompletedDate?.ToString("g") ?? "—")<br />
+                <strong>Related Case:</strong> @(Model.ComplianceCase?.BusinessName ?? "—")
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (Model.Status == "Scheduled")
+{
+    <form asp-action="Start" method="post" class="mb-3">
+        <input type="hidden" name="id" value="@Model.Id" />
+        <button type="submit" class="btn btn-primary">Start Audit</button>
+    </form>
+}
+
+@if (Model.Status == "InProgress")
+{
+    <div class="card shadow mb-4">
+        <div class="card-header bg-info text-white">Audit Checklist</div>
+        <div class="card-body">
+            <ul class="list-group mb-3">
+                <li class="list-group-item"><input type="checkbox" class="form-check-input me-2" /> Documents verified</li>
+                <li class="list-group-item"><input type="checkbox" class="form-check-input me-2" /> Business behaviour reviewed</li>
+                <li class="list-group-item"><input type="checkbox" class="form-check-input me-2" /> Rules &amp; correctness checked</li>
+                <li class="list-group-item"><input type="checkbox" class="form-check-input me-2" /> Problems identified &amp; noted</li>
+                <li class="list-group-item"><input type="checkbox" class="form-check-input me-2" /> Safety &amp; compliance standards met</li>
+            </ul>
+
+            <form asp-action="Complete" method="post">
+                <input type="hidden" name="id" value="@Model.Id" />
+                <div class="mb-3">
+                    <label class="form-label">Audit Findings</label>
+                    <textarea name="findings" class="form-control" rows="4" placeholder="Enter detailed findings..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Submit Findings &amp; Complete</button>
+            </form>
+        </div>
+    </div>
+}
+
+@if (Model.Status == "Completed" && !string.IsNullOrEmpty(Model.Findings))
+{
+    <div class="card shadow">
+        <div class="card-header bg-success text-white">Audit Findings</div>
+        <div class="card-body">
+            <p>@Model.Findings</p>
+        </div>
+    </div>
+}
+
+<a asp-action="Index" class="btn btn-outline-secondary mt-3">Back to Audits</a>

@@ -1,0 +1,161 @@
+﻿/* ── TradeNet Compliance Console — White + Blue Theme ── */
+:root {
+    --bg: #f4f6f9;
+    --panel: #ffffff;
+    --text: #1e293b;
+    --muted: #64748b;
+    --accent: #2563eb;
+    --accent-light: #eff6ff;
+    --ok: #16a34a;
+    --warn: #d97706;
+    --bad: #dc2626;
+    --border: #e2e8f0;
+    --sidebar-bg: #1e3a5f;
+    --sidebar-text: #e0e7ef;
+    --header-bg: #ffffff;
+    --radius: 10px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { position: relative; min-height: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.5 system-ui, 'Segoe UI', Roboto, Arial, sans-serif; }
+
+/* ── App Header ── */
+.app-header {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 10px 20px; background: var(--header-bg);
+    border-bottom: 2px solid var(--accent); position: sticky; top: 0; z-index: 100;
+    box-shadow: 0 1px 4px rgba(0,0,0,.06);
+}
+.brand { font-weight: 700; font-size: 18px; color: var(--accent); }
+.brand .sub { font-weight: 400; color: var(--muted); font-size: 12px; margin-left: 8px; }
+.top-actions { display: flex; gap: 12px; align-items: center; }
+.icon-btn {
+    background: var(--accent-light); border: 1px solid var(--border); color: var(--accent);
+    border-radius: 8px; padding: 6px 10px; cursor: pointer; font-size: 16px; position: relative;
+}
+.icon-btn:hover { background: var(--accent); color: #fff; }
+.notif-badge {
+    position: absolute; top: -5px; right: -5px;
+    background: var(--bad); color: #fff; border-radius: 999px;
+    min-width: 18px; height: 18px; padding: 0 5px;
+    font-size: 11px; font-weight: 700; line-height: 18px; text-align: center;
+}
+.user-chip {
+    background: var(--accent-light); padding: 6px 14px; border-radius: 999px;
+    border: 1px solid var(--border); font-size: 13px; color: var(--accent); font-weight: 500;
+}
+
+/* ── Sidebar + Body Layout ── */
+.app-body { display: grid; grid-template-columns: 230px 1fr; min-height: calc(100vh - 52px); }
+.sidebar {
+    background: var(--sidebar-bg); padding: 16px 12px;
+    display: flex; flex-direction: column; gap: 6px;
+}
+.sidebar-link {
+    display: block; padding: 10px 14px; border-radius: 8px;
+    color: var(--sidebar-text); text-decoration: none; font-size: 13px; font-weight: 500;
+    border: 1px solid transparent; transition: all .15s;
+}
+.sidebar-link:hover { background: rgba(255,255,255,.1); color: #fff; }
+.sidebar-link.active { background: rgba(255,255,255,.15); border-color: rgba(255,255,255,.3); color: #fff; box-shadow: 0 0 0 2px rgba(255,255,255,.1); }
+.main-view { padding: 24px; min-width: 0; }
+
+/* ── Page Title ── */
+.page-title { font-size: 20px; font-weight: 700; color: var(--text); margin: 0 0 18px; }
+.page-subtitle { color: var(--muted); font-size: 13px; margin: -12px 0 18px; }
+
+/* ── Stat Cards ── */
+.stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 20px; }
+.card-stat {
+    background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 18px; box-shadow: 0 1px 3px rgba(0,0,0,.04);
+}
+.card-stat h4 { margin: 0 0 4px; font-size: 12px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: .3px; }
+.card-stat .value { font-size: 28px; font-weight: 700; color: var(--accent); }
+
+/* ── Section Panel ── */
+.section {
+    background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 18px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,.04);
+}
+.section h3 { margin: 0 0 12px; font-size: 15px; font-weight: 600; color: var(--text); }
+
+/* ── Table ── */
+.tn-table { width: 100%; border-collapse: collapse; }
+.tn-table th, .tn-table td { padding: 10px 12px; text-align: left; font-size: 13px; border-bottom: 1px solid var(--border); }
+.tn-table thead { background: var(--accent); color: #fff; }
+.tn-table thead th { font-weight: 600; border: none; }
+.tn-table tbody tr { transition: background .1s; }
+.tn-table tbody tr:hover { background: var(--accent-light); }
+.tn-table .empty-row td { color: var(--muted); text-align: center; padding: 24px; }
+
+/* ── Severity Pill ── */
+.sev { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 11px; font-weight: 600; }
+.sev-low      { background: #dcfce7; color: #166534; }
+.sev-medium   { background: #fef3c7; color: #92400e; }
+.sev-high     { background: #fee2e2; color: #991b1b; }
+.sev-critical { background: #fecaca; color: #7f1d1d; }
+
+/* ── Status Pill ── */
+.st { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 11px; font-weight: 600; }
+.st-pending           { background: #f1f5f9; color: #475569; }
+.st-investigating     { background: #dbeafe; color: #1e40af; }
+.st-compliant         { background: #dcfce7; color: #166534; }
+.st-noncompliant      { background: #fee2e2; color: #991b1b; }
+.st-documentsrequested { background: #fef3c7; color: #92400e; }
+.st-auditstarted      { background: #e0f2fe; color: #075985; }
+.st-scheduled         { background: #f1f5f9; color: #475569; }
+.st-inprogress        { background: #dbeafe; color: #1e40af; }
+.st-completed         { background: #dcfce7; color: #166534; }
+.st-cancelled         { background: #fee2e2; color: #991b1b; }
+.st-eligible          { background: #dcfce7; color: #166534; }
+.st-noteligible       { background: #fee2e2; color: #991b1b; }
+
+/* ── Buttons ── */
+.btn-tn { padding: 7px 14px; border-radius: 8px; font-size: 13px; font-weight: 500; cursor: pointer; border: none; transition: all .15s; }
+.btn-accent { background: var(--accent); color: #fff; }
+.btn-accent:hover { background: #1d4ed8; color: #fff; }
+.btn-ok { background: var(--ok); color: #fff; }
+.btn-ok:hover { background: #15803d; color: #fff; }
+.btn-ghost-tn { background: transparent; border: 1px solid var(--border); color: var(--text); }
+.btn-ghost-tn:hover { border-color: var(--accent); color: var(--accent); }
+
+/* ── Alert cards (notifications) ── */
+.alert-card {
+    background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 14px 16px; margin-bottom: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.04);
+    border-left: 4px solid var(--border);
+}
+.alert-card.alert-sev-high, .alert-card.alert-sev-critical { border-left-color: var(--bad); }
+.alert-card.alert-sev-medium { border-left-color: var(--warn); }
+.alert-card.alert-sev-low    { border-left-color: var(--ok); }
+
+/* ── Misuse Flag ── */
+.flag-misuse { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 600; background: #fee2e2; color: #991b1b; }
+
+/* ── Modal override for blue header ── */
+.modal-header-blue { background: var(--accent); color: #fff; }
+.modal-header-blue .btn-close { filter: brightness(0) invert(1); }
+
+/* ── Inspect modal split layout ── */
+.split { display: grid; grid-template-columns: 1.1fr .9fr; gap: 16px; }
+
+/* ── Checklist ── */
+.checklist-item {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 14px; background: var(--accent-light); border: 1px solid var(--border);
+    border-radius: 8px; margin-bottom: 6px; font-size: 13px;
+}
+
+/* ── History list ── */
+.history-item { padding: 8px 0; border-bottom: 1px solid var(--border); }
+.history-item:last-child { border-bottom: none; }
+
+/* ── Responsive ── */
+@media (max-width: 960px) {
+    .app-body { grid-template-columns: 1fr; }
+    .sidebar { flex-direction: row; overflow-x: auto; padding: 10px; position: sticky; top: 52px; z-index: 50; }
+    .stat-grid { grid-template-columns: repeat(2, 1fr); }
+    .split { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,58 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using TradeNet11.Services;
+
+namespace TradeNet11.Controllers
+{
+    public class ComplianceDashboardController : Controller
+    {
+        private readonly ComplianceCaseService _caseService;
+
+        public ComplianceDashboardController(ComplianceCaseService caseService)
+        {
+            _caseService = caseService;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var officerId = HttpContext.Session.GetInt32("OfficerId");
+            if (officerId is null)
+                return RedirectToAction("Login", "Account");
+
+            var cases = await _caseService.GetAllCasesAsync();
+            return View(cases);
+        }
+
+        public async Task<IActionResult> CaseDetail(int id)
+        {
+            var officerId = HttpContext.Session.GetInt32("OfficerId");
+            if (officerId is null)
+                return RedirectToAction("Login", "Account");
+
+            var complianceCase = await _caseService.GetCaseDetailAsync(id);
+            if (complianceCase is null)
+                return NotFound();
+
+            var records = await _caseService.GetCaseRecordsAsync(id);
+
+            var vm = new Models.ViewModels.CaseDetailViewModel
+            {
+                Case = complianceCase,
+                Records = records
+            };
+
+            return PartialView("_CaseDetailModal", vm);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> UpdateStatus(int caseId, string newStatus, string? remarks)
+        {
+            var officerId = HttpContext.Session.GetInt32("OfficerId");
+            if (officerId is null)
+                return RedirectToAction("Login", "Account");
+
+            await _caseService.UpdateCaseStatusAsync(caseId, newStatus, officerId.Value, remarks);
+            return RedirectToAction(nameof(Index));
+        }
+    }
+}

@@ -1,0 +1,46 @@
+﻿@model IEnumerable<TradeNet11.Models.ComplianceNotification>
+@{
+    ViewData["Title"] = "Notification Center";
+}
+
+<h2 class="page-title">🔔 Notification Center</h2>
+<p class="page-subtitle">Real-time alerts about violations, documents, audits, and flagged items.</p>
+
+@if (!Model.Any())
+{
+    <div class="section" style="text-align:center;padding:40px;color:var(--muted)">
+        No alerts 🎉
+    </div>
+}
+else
+{
+    @foreach (var n in Model)
+    {
+        var sevCls = "alert-sev-" + n.Severity.ToLower();
+
+        <div class="alert-card @sevCls @(n.IsRead ? "" : "fw-bold")">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+                <div>
+                    <strong>@n.AlertType</strong>
+                    <span class="sev sev-@(n.Severity.ToLower())" style="margin-left:8px">@n.Severity</span>
+                </div>
+                <span style="font-size:12px;color:var(--muted)">@n.CreatedAt.ToString("g")</span>
+            </div>
+            <div style="font-size:14px;margin-bottom:2px">@n.Title</div>
+            <div style="font-size:13px;color:var(--muted);margin-bottom:8px">@n.Description</div>
+            <div style="display:flex;gap:8px">
+                @if (!n.IsRead)
+                {
+                    <form asp-action="MarkAsRead" method="post" style="display:inline">
+                        <input type="hidden" name="id" value="@n.Id" />
+                        <button type="submit" class="btn-tn btn-ghost-tn">Dismiss</button>
+                    </form>
+                }
+                @if (n.ComplianceCaseId.HasValue)
+                {
+                    <a asp-controller="ComplianceDashboard" asp-action="Index" class="btn-tn btn-accent">Open</a>
+                }
+            </div>
+        </div>
+    }
+}

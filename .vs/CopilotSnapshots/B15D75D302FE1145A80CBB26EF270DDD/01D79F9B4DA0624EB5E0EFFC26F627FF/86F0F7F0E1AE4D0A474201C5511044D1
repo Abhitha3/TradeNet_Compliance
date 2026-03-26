@@ -1,0 +1,51 @@
+﻿@model IEnumerable<TradeNet11.Models.ComplianceNotification>
+@{
+    ViewData["Title"] = "Notification Center";
+}
+
+<h2 class="mb-4"><i class="bi bi-bell"></i> Notification Center</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">No notifications at this time.</div>
+}
+else
+{
+    <div class="list-group">
+        @foreach (var n in Model)
+        {
+            var badgeClass = n.Severity switch
+            {
+                "Critical" => "bg-danger",
+                "High" => "bg-warning text-dark",
+                "Medium" => "bg-info text-dark",
+                _ => "bg-secondary"
+            };
+
+            <div class="list-group-item list-group-item-action @(n.IsRead ? "" : "list-group-item-light fw-bold")">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">
+                        @n.Title
+                        <span class="badge @badgeClass">@n.Severity</span>
+                        <span class="badge bg-dark">@n.AlertType</span>
+                    </h5>
+                    <small>@n.CreatedAt.ToString("g")</small>
+                </div>
+                <p class="mb-1">@n.Description</p>
+                @if (!n.IsRead)
+                {
+                    <form asp-action="MarkAsRead" method="post" class="d-inline">
+                        <input type="hidden" name="id" value="@n.Id" />
+                        <button type="submit" class="btn btn-sm btn-outline-primary">Mark as Read</button>
+                    </form>
+                }
+                @if (n.ComplianceCaseId.HasValue)
+                {
+                    <a asp-controller="ComplianceDashboard" asp-action="Index" class="btn btn-sm btn-outline-secondary">
+                        Go to Case
+                    </a>
+                }
+            </div>
+        }
+    </div>
+}

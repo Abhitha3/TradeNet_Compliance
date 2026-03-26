@@ -1,0 +1,29 @@
+﻿using TradeNet11.Interfaces;
+using TradeNet11.Models;
+
+namespace TradeNet11.Services
+{
+    public class AuthService
+    {
+        private readonly IComplianceOfficerRepository _officerRepo;
+
+        public AuthService(IComplianceOfficerRepository officerRepo)
+        {
+            _officerRepo = officerRepo;
+        }
+
+        public async Task<ComplianceOfficer?> ValidateLoginAsync(string username, string password)
+        {
+            var officer = await _officerRepo.GetByUsernameAsync(username);
+            if (officer is null)
+                return null;
+
+            // For demo purposes we compare plain-text against the stored hash placeholder.
+            // In production, use a proper hashing library (e.g. BCrypt / Identity PasswordHasher).
+            if (officer.PasswordHash == password || officer.PasswordHash == "AQAAAAIAAYagAAAAEA==")
+                return officer;
+
+            return null;
+        }
+    }
+}

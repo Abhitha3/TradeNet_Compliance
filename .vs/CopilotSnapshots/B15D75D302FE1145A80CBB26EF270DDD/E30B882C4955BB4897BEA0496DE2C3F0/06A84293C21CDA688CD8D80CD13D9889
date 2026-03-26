@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TradeNet</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/TradeNet11.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header class="app-header">
+        <div class="brand">
+            TradeNet <span class="sub">Compliance Console</span>
+        </div>
+        <nav class="top-actions">
+            <a asp-controller="Notification" asp-action="Index" class="icon-btn" title="Notifications"><i class="bi bi-bell"></i></a>
+            <div class="user-chip"><i class="bi bi-person-badge"></i> Compliance Officer</div>
+        </nav>
+    </header>
+
+    <div class="app-body">
+        <aside class="sidebar">
+            <a asp-controller="Notification" asp-action="Index"
+               class="sidebar-link @(ViewData["Title"]?.ToString()?.Contains("Notification") == true ? "active" : "")">
+                <i class="bi bi-bell"></i> Notifications
+            </a>
+            <a asp-controller="ComplianceDashboard" asp-action="Index"
+               class="sidebar-link @(ViewData["Title"]?.ToString()?.Contains("Dashboard") == true ? "active" : "")">
+                <i class="bi bi-clipboard-check"></i> Compliance Dashboard
+            </a>
+            <a asp-controller="Audit" asp-action="Index"
+               class="sidebar-link @(ViewData["Title"]?.ToString()?.Contains("Audit") == true ? "active" : "")">
+                <i class="bi bi-search"></i> Audits &amp; Investigation
+            </a>
+            <a asp-controller="ProgramCompliance" asp-action="Index"
+               class="sidebar-link @(ViewData["Title"]?.ToString()?.Contains("Program") == true ? "active" : "")">
+                <i class="bi bi-cash-stack"></i> Program &amp; Subsidy
+            </a>
+        </aside>
+        <main class="main-view">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

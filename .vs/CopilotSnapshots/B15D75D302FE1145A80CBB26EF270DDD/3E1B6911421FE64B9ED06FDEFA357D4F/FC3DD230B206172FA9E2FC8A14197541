@@ -1,0 +1,48 @@
+﻿@model IEnumerable<TradeNet11.Models.Audit>
+@{
+    ViewData["Title"] = "Audit & Investigation";
+}
+
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:18px">
+    <h2 class="page-title" style="margin:0"><i class="bi bi-search"></i> Audits &amp; Investigation</h2>
+    <a asp-action="Create" class="btn-tn btn-ok">+ New Audit</a>
+</div>
+
+<div class="section">
+    <h3>All Audits</h3>
+    <table class="tn-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Scope</th>
+                <th>Business</th>
+                <th>Assigned</th>
+                <th>Status</th>
+                <th>Date</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (!Model.Any())
+            {
+                <tr class="empty-row"><td colspan="7">No audits scheduled.</td></tr>
+            }
+            @foreach (var a in Model)
+            {
+                var stCls = "st-" + a.Status.ToLower();
+
+                <tr>
+                    <td>@a.Id</td>
+                    <td>@a.AuditTitle</td>
+                    <td>@a.BusinessName</td>
+                    <td>@(a.AssignedOfficer?.FullName ?? "—")</td>
+                    <td><span class="st @stCls">@a.Status</span></td>
+                    <td style="color:var(--muted);font-size:12px">@a.ScheduledDate.ToString("d")</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@a.Id" class="btn-tn btn-accent">Open</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

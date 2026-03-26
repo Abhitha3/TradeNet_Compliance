@@ -1,0 +1,76 @@
+﻿@model TradeNet11.Models.Audit
+@{
+    ViewData["Title"] = "Audit Details";
+    var stCls = "st-" + Model.Status.ToLower();
+}
+
+<h2 class="page-title">Audit: @Model.AuditTitle</h2>
+
+<div class="split">
+    <!-- Left: Details + Checklist -->
+    <div>
+        <div class="section">
+            <h3>Scope Details</h3>
+            <div class="mb-2"><strong>Business:</strong> @Model.BusinessName</div>
+            <div class="mb-2"><strong>Assigned To:</strong> @(Model.AssignedOfficer?.FullName ?? "—")</div>
+            <div class="mb-2"><strong>Scheduled:</strong> @Model.ScheduledDate.ToString("g")</div>
+            <div class="mb-2"><strong>Status:</strong> <span class="st @stCls">@Model.Status</span></div>
+            <div class="mb-2"><strong>Completed:</strong> @(Model.CompletedDate?.ToString("g") ?? "—")</div>
+            <div class="mb-2"><strong>Related Case:</strong> @(Model.ComplianceCase?.BusinessName ?? "—")</div>
+        </div>
+
+        @if (Model.Status == "Scheduled")
+        {
+            <form asp-action="Start" method="post">
+                <input type="hidden" name="id" value="@Model.Id" />
+                <button type="submit" class="btn-tn btn-accent"><i class="bi bi-play-fill"></i> Start Audit</button>
+            </form>
+        }
+
+        @if (Model.Status == "InProgress")
+        {
+            <div class="section">
+                <h3>Checklist</h3>
+                <div class="checklist-item"><input type="checkbox" class="form-check-input" /> Documents verified</div>
+                <div class="checklist-item"><input type="checkbox" class="form-check-input" /> Business behaviour reviewed</div>
+                <div class="checklist-item"><input type="checkbox" class="form-check-input" /> Rules &amp; correctness checked</div>
+                <div class="checklist-item"><input type="checkbox" class="form-check-input" /> Problems identified &amp; noted</div>
+                <div class="checklist-item"><input type="checkbox" class="form-check-input" /> Safety &amp; compliance standards met</div>
+            </div>
+
+            <div class="section">
+                <h3>Submit Findings</h3>
+                <form asp-action="Complete" method="post">
+                    <input type="hidden" name="id" value="@Model.Id" />
+                    <div class="mb-3">
+                        <label class="form-label" style="font-size:13px;color:var(--muted)">Findings (remarks)</label>
+                        <textarea name="findings" class="form-control" rows="4" placeholder="Enter detailed findings..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-tn btn-ok">Submit &amp; Finalize</button>
+                </form>
+            </div>
+        }
+    </div>
+
+    <!-- Right: Findings -->
+    <div>
+        @if (Model.Status == "Completed" && !string.IsNullOrEmpty(Model.Findings))
+        {
+            <div class="section">
+                <h3><i class="bi bi-check-circle"></i> Audit Findings</h3>
+                <p style="font-size:13px;color:var(--text)">@Model.Findings</p>
+            </div>
+        }
+        else
+        {
+            <div class="section">
+                <h3>Previous Findings</h3>
+                <div style="color:var(--muted)">None</div>
+            </div>
+        }
+    </div>
+</div>
+
+<div style="margin-top:16px">
+    <a asp-action="Index" class="btn-tn btn-ghost-tn">← Back to Audits</a>
+</div>

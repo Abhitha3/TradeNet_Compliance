@@ -1,0 +1,96 @@
+﻿@model IEnumerable<TradeNet11.Models.ComplianceCase>
+@{
+    ViewData["Title"] = "Compliance Dashboard";
+}
+
+<h2 class="mb-4"><i class="bi bi-clipboard-check"></i> Compliance Dashboard</h2>
+
+<div class="table-responsive">
+    <table class="table table-striped table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Business</th>
+                <th>License #</th>
+                <th>Issue Type</th>
+                <th>Severity</th>
+                <th>Status</th>
+                <th>Reported</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in Model)
+            {
+                var severityBadge = c.Severity switch
+                {
+                    "Critical" => "bg-danger",
+                    "High" => "bg-warning text-dark",
+                    "Medium" => "bg-info text-dark",
+                    _ => "bg-secondary"
+                };
+                var statusBadge = c.Status switch
+                {
+                    "Pending" => "bg-secondary",
+                    "Investigating" => "bg-primary",
+                    "Compliant" => "bg-success",
+                    "NonCompliant" => "bg-danger",
+                    "DocumentsRequested" => "bg-warning text-dark",
+                    "AuditStarted" => "bg-info text-dark",
+                    _ => "bg-secondary"
+                };
+
+                <tr>
+                    <td>@c.Id</td>
+                    <td>@c.BusinessName</td>
+                    <td>@c.LicenseNumber</td>
+                    <td>@c.IssueType</td>
+                    <td><span class="badge @severityBadge">@c.Severity</span></td>
+                    <td><span class="badge @statusBadge">@c.Status</span></td>
+                    <td>@c.ReportedAt.ToString("d")</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary btn-inspect"
+                                data-case-id="@c.Id"
+                                data-bs-toggle="modal"
+                                data-bs-target="#caseModal">
+                            Inspect
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Inspect Modal -->
+<div class="modal fade" id="caseModal" tabindex="-1" aria-labelledby="caseModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title" id="caseModalLabel">Case Details</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="caseModalBody">
+                <div class="text-center">
+                    <div class="spinner-border" role="status"><span class="visually-hidden">Loading...</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.querySelectorAll('.btn-inspect').forEach(btn => {
+            btn.addEventListener('click', function () {
+                const caseId = this.getAttribute('data-case-id');
+                const modalBody = document.getElementById('caseModalBody');
+                modalBody.innerHTML = '<div class="text-center"><div class="spinner-border" role="status"><span class="visually-hidden">Loading...</span></div></div>';
+
+                fetch('@Url.Action("CaseDetail", "ComplianceDashboard")/' + caseId)
+                    .then(response => response.text())
+                    .then(html => { modalBody.innerHTML = html; });
+            });
+        });
+    </script>
+}

@@ -1,0 +1,76 @@
+﻿@model TradeNet11.Models.ViewModels.CaseDetailViewModel
+
+@{
+    var c = Model.Case;
+    var sevCls = c.Severity switch { "Critical" => "sev-critical", "High" => "sev-high", "Medium" => "sev-medium", _ => "sev-low" };
+    var stCls = "st-" + c.Status.ToLower();
+}
+
+<div class="split">
+    <!-- Left Column: Summary + Actions -->
+    <div>
+        <div class="section">
+            <h3>Summary</h3>
+            <div class="mb-2"><strong>Business:</strong> @c.BusinessName</div>
+            <div class="mb-2"><strong>License:</strong> @c.LicenseNumber</div>
+            <div class="mb-2"><strong>Issue:</strong> @c.IssueType</div>
+            <div class="mb-2"><strong>Severity:</strong> <span class="sev @sevCls">@c.Severity</span></div>
+            <div class="mb-2"><strong>Status:</strong> <span class="st @stCls">@c.Status</span></div>
+            <div class="mb-2"><strong>Reported:</strong> @c.ReportedAt.ToString("g")</div>
+            <div class="mb-2"><strong>Resolved:</strong> @(c.ResolvedAt?.ToString("g") ?? "—")</div>
+            <div class="mb-2"><strong>Officer:</strong> @(c.AssignedOfficer?.FullName ?? "Unassigned")</div>
+        </div>
+        <div class="section">
+            <h3>Description</h3>
+            <p style="color:var(--muted);font-size:13px">@c.Description</p>
+        </div>
+        <div class="section">
+            <h3>Actions</h3>
+            <form asp-controller="ComplianceDashboard" asp-action="UpdateStatus" method="post">
+                <input type="hidden" name="caseId" value="@c.Id" />
+                <div class="mb-2">
+                    <select name="newStatus" class="form-select form-select-sm">
+                        <option value="Investigating">🟡 Mark Under Investigation</option>
+                        <option value="Compliant">✅ Mark Compliant</option>
+                        <option value="NonCompliant">❌ Mark Non-Compliant</option>
+                        <option value="DocumentsRequested">📤 Request Documents</option>
+                        <option value="AuditStarted">🧭 Initiate Audit</option>
+                    </select>
+                </div>
+                <div class="mb-2">
+                    <input type="text" name="remarks" class="form-control form-control-sm" placeholder="Remarks (optional)" />
+                </div>
+                <button type="submit" class="btn-tn btn-accent">Update Status</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Right Column: History -->
+    <div>
+        <div class="section">
+            <h3>History</h3>
+            @if (Model.Records.Any())
+            {
+                @foreach (var r in Model.Records)
+                {
+                    <div class="history-item">
+                        <div><strong>@r.ActionTaken</strong> — @r.Details</div>
+                        @if (!string.IsNullOrEmpty(r.OfficerRemarks))
+                        {
+                            <div style="font-size:12px">💬 @r.OfficerRemarks</div>
+                        }
+                        @if (!string.IsNullOrEmpty(r.RuleViolation))
+                        {
+                            <div style="font-size:12px;color:var(--bad)">⚠ @r.RuleViolation</div>
+                        }
+                        <div style="font-size:11px;color:var(--muted)">@r.Timestamp.ToString("g") by @(r.Officer?.FullName ?? "System")</div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div style="color:var(--muted)">No history yet.</div>
+            }
+        </div>
+    </div>
+</div>

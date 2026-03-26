@@ -1,0 +1,49 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using TradeNet11.Models.ViewModels;
+using TradeNet11.Services;
+
+namespace TradeNet11.Controllers
+{
+    public class AccountController : Controller
+    {
+        private readonly AuthService _authService;
+
+        public AccountController(AuthService authService)
+        {
+            _authService = authService;
+        }
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login(LoginViewModel model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+
+            var officer = await _authService.ValidateLoginAsync(model.Username, model.Password);
+            if (officer is null)
+            {
+                ModelState.AddModelError(string.Empty, "Invalid username or password.");
+                return View(model);
+            }
+
+            // Store officer info in session
+            HttpContext.Session.SetInt32("OfficerId", officer.Id);
+            HttpContext.Session.SetString("OfficerName", officer.FullName);
+
+            return RedirectToAction("Index", "ComplianceDashboard");
+        }
+
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction("Login");
+        }
+    }
+}

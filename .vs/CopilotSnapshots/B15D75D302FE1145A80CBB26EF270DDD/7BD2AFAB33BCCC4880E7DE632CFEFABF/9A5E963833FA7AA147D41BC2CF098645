@@ -1,0 +1,35 @@
+﻿@model TradeNet11.Models.Audit
+@{
+    ViewData["Title"] = "Create Audit";
+}
+
+<h2 class="page-title">Create New Audit</h2>
+
+<div class="section" style="max-width:560px">
+    <form asp-action="Create" method="post">
+        <div class="mb-3">
+            <label asp-for="AuditTitle" class="form-label" style="font-size:13px;color:var(--muted)">Audit Title</label>
+            <input asp-for="AuditTitle" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label asp-for="BusinessName" class="form-label" style="font-size:13px;color:var(--muted)">Business Name</label>
+            <input asp-for="BusinessName" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label asp-for="ScheduledDate" class="form-label" style="font-size:13px;color:var(--muted)">Scheduled Date</label>
+            <input asp-for="ScheduledDate" type="date" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label asp-for="ComplianceCaseId" class="form-label" style="font-size:13px;color:var(--muted)">Related Case ID (optional)</label>
+            <input asp-for="ComplianceCaseId" type="number" class="form-control" />
+        </div>
+        <div style="display:flex;gap:10px">
+            <button type="submit" class="btn-tn btn-ok">Create Audit</button>
+            <a asp-action="Index" class="btn-tn btn-ghost-tn">Cancel</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
