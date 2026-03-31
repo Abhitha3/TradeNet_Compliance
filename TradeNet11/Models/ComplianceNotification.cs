@@ -13,6 +13,9 @@ namespace TradeNet11.Models
         public int? ComplianceCaseId { get; set; }
         public ComplianceCase? ComplianceCase { get; set; }
 
+        public int? AuditId { get; set; }
+        public Audit? Audit { get; set; }
+
         public int? AssignedOfficerId { get; set; }
         public ComplianceOfficer? AssignedOfficer { get; set; }
     }

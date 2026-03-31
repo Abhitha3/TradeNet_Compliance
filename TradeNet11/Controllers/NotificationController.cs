@@ -1,13 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
-using TradeNet11.Services;
+using TradeNet11.Interfaces;
 
 namespace TradeNet11.Controllers
 {
     public class NotificationController : Controller
     {
-        private readonly ComplianceNotificationService _notificationService;
+        private readonly IComplianceNotificationService _notificationService;
 
-        public NotificationController(ComplianceNotificationService notificationService)
+        public NotificationController(IComplianceNotificationService notificationService)
         {
             _notificationService = notificationService;
         }

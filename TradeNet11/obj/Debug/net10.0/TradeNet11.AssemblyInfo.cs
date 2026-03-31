@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TradeNet11")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e26767c4b6ec92049c7889b86772bb4fcbc4a381")]
 [assembly: System.Reflection.AssemblyProductAttribute("TradeNet11")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TradeNet11")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

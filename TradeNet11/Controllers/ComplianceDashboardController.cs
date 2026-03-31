@@ -1,13 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
-using TradeNet11.Services;
+using TradeNet11.Interfaces;
 
 namespace TradeNet11.Controllers
 {
     public class ComplianceDashboardController : Controller
     {
-        private readonly ComplianceCaseService _caseService;
+        private readonly IComplianceCaseService _caseService;
 
-        public ComplianceDashboardController(ComplianceCaseService caseService)
+        public ComplianceDashboardController(IComplianceCaseService caseService)
         {
             _caseService = caseService;
         }

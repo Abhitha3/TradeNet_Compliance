@@ -3,7 +3,7 @@ using TradeNet11.Models;
 
 namespace TradeNet11.Services
 {
-    public class ComplianceCaseService
+    public class ComplianceCaseService : IComplianceCaseService
     {
         private readonly IComplianceCaseRepository _caseRepo;
         private readonly IComplianceRecordRepository _recordRepo;

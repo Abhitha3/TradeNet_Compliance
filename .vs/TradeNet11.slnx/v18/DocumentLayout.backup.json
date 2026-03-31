@@ -3,38 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\repositories\\compliancenotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\repositories\\compliancenotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\repositories\\compliancecaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\repositories\\compliancecaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\migrations\\20260324122801_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\migrations\\20260324122801_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\interfaces\\icomplianceofficerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\interfaces\\icomplianceofficerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,20 +11,80 @@
       "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\migrations\\20260324122801_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\migrations\\20260324122801_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\models\\compliancenotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\models\\compliancenotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\models\\audit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\models\\audit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\models\\viewmodels\\casedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\models\\viewmodels\\casedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\services\\compliancecaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\services\\compliancecaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\services\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\services\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\interfaces\\iprogramcomplianceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\interfaces\\iprogramcomplianceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\interfaces\\icompliancerecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\interfaces\\icompliancerecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\interfaces\\icompliancenotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\interfaces\\icompliancenotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\interfaces\\icompliancecaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\interfaces\\icompliancecaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\interfaces\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\interfaces\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\controllers\\programcompliancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\controllers\\programcompliancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\controllers\\compliancedashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\controllers\\compliancedashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\controllers\\auditcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\controllers\\auditcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\views\\programcompliance\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\views\\programcompliance\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\views\\audit\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\views\\audit\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\views\\notification\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\views\\notification\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\views\\audit\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\views\\audit\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\views\\audit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\views\\audit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\views\\compliancedashboard\\_casedetailmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -67,88 +95,72 @@
       "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\views\\compliancedashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\views\\notification\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\views\\notification\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\views\\audit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\views\\audit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\controllers\\programcompliancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\controllers\\programcompliancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\views\\audit\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\views\\audit\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\controllers\\auditcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\controllers\\auditcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\controllers\\compliancedashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\controllers\\compliancedashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\services\\programcomplianceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\services\\programcomplianceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\services\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\services\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\services\\compliancecaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\services\\compliancecaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\services\\compliancenotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\services\\compliancenotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\repositories\\compliancerecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\repositories\\compliancerecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\views\\audit\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\views\\audit\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\repositories\\programcompliancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\repositories\\programcompliancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\repositories\\auditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\repositories\\auditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\repositories\\compliancerecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\repositories\\compliancerecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\repositories\\complianceofficerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\repositories\\complianceofficerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\interfaces\\icompliancerecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\interfaces\\icompliancerecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\repositories\\compliancenotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\repositories\\compliancenotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\interfaces\\iprogramcompliancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\interfaces\\iprogramcompliancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\repositories\\compliancecaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\repositories\\compliancecaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\interfaces\\iauditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\interfaces\\iauditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\interfaces\\icompliancecaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\interfaces\\icompliancecaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\repositories\\auditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\repositories\\auditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\interfaces\\icompliancenotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\interfaces\\icompliancenotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\models\\audit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\models\\audit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\interfaces\\icompliancecaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\interfaces\\icompliancecaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\models\\compliancenotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\models\\compliancenotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\interfaces\\iauditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\interfaces\\iauditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\models\\viewmodels\\casedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\models\\viewmodels\\casedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\services\\programcomplianceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\services\\programcomplianceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\services\\compliancenotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\services\\compliancenotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\interfaces\\icomplianceofficerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\interfaces\\icomplianceofficerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\models\\compliancecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\models\\compliancecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\models\\complianceofficer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -159,20 +171,40 @@
       "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\models\\compliancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\interfaces\\iprogramcompliancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\interfaces\\iprogramcompliancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\models\\programcompliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\models\\programcompliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\models\\compliancecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\models\\compliancecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\tradenet11.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\tradenet11.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\migrations\\20260324130000_addauditidtocompliancenotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\migrations\\20260324130000_addauditidtocompliancenotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|c:\\users\\2481409\\source\\repos\\tradenet11\\tradenet11\\migrations\\20260324130000_addauditidtocompliancenotification.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC25804A-DB30-5FA3-89C4-84EDABE94A92}|TradeNet11\\TradeNet11.csproj|solutionrelative:tradenet11\\migrations\\20260324130000_addauditidtocompliancenotification.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -182,7 +214,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -190,95 +222,540 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "TradeNet11\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Properties\\launchSettings.json",
-              "RelativeToolTip": "TradeNet11\\Properties\\launchSettings.json",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-26T09:23:29.304Z",
+              "DocumentIndex": 3,
+              "Title": "ComplianceNotification.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Models\\ComplianceNotification.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Models\\ComplianceNotification.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Models\\ComplianceNotification.cs",
+              "RelativeToolTip": "TradeNet11\\Models\\ComplianceNotification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:08:52.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Program.cs",
               "RelativeDocumentMoniker": "TradeNet11\\Program.cs",
               "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Program.cs",
               "RelativeToolTip": "TradeNet11\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAIBJwAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwDgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:15:29.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ComplianceCaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\ComplianceCaseRepository.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Repositories\\ComplianceCaseRepository.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\ComplianceCaseRepository.cs",
-              "RelativeToolTip": "TradeNet11\\Repositories\\ComplianceCaseRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:10:57.176Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "TradeNet11\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "TradeNet11\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-25T08:21:54.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "TradeNet11\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\wwwroot\\css\\site.css*",
-              "RelativeToolTip": "TradeNet11\\wwwroot\\css\\site.css*",
-              "ViewState": "AgIAANEBAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-03-24T12:45:10.516Z",
+              "WhenOpened": "2026-03-24T12:15:29.634Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "20260324122801_Table.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Migrations\\20260324122801_Table.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Migrations\\20260324122801_Table.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Migrations\\20260324122801_Table.cs",
+              "RelativeToolTip": "TradeNet11\\Migrations\\20260324122801_Table.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:28:02.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TradeNet11\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TradeNet11\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T12:15:13.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Audit.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Models\\Audit.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Models\\Audit.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Models\\Audit.cs",
+              "RelativeToolTip": "TradeNet11\\Models\\Audit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:09:09.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CaseDetailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Models\\ViewModels\\CaseDetailViewModel.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Models\\ViewModels\\CaseDetailViewModel.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Models\\ViewModels\\CaseDetailViewModel.cs",
+              "RelativeToolTip": "TradeNet11\\Models\\ViewModels\\CaseDetailViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:09:41.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TradeNet11\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAmwDgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:09:51.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ComplianceCaseService.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Services\\ComplianceCaseService.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Services\\ComplianceCaseService.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Services\\ComplianceCaseService.cs",
+              "RelativeToolTip": "TradeNet11\\Services\\ComplianceCaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:11:53.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuditService.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Services\\AuditService.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Services\\AuditService.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Services\\AuditService.cs",
+              "RelativeToolTip": "TradeNet11\\Services\\AuditService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:12:03.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProgramComplianceService.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IProgramComplianceService.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Interfaces\\IProgramComplianceService.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IProgramComplianceService.cs",
+              "RelativeToolTip": "TradeNet11\\Interfaces\\IProgramComplianceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T12:56:09.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IComplianceRecordRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IComplianceRecordRepository.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Interfaces\\IComplianceRecordRepository.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IComplianceRecordRepository.cs",
+              "RelativeToolTip": "TradeNet11\\Interfaces\\IComplianceRecordRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:10:32.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IComplianceNotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IComplianceNotificationService.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Interfaces\\IComplianceNotificationService.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IComplianceNotificationService.cs",
+              "RelativeToolTip": "TradeNet11\\Interfaces\\IComplianceNotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T12:56:09.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IComplianceCaseService.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IComplianceCaseService.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Interfaces\\IComplianceCaseService.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IComplianceCaseService.cs",
+              "RelativeToolTip": "TradeNet11\\Interfaces\\IComplianceCaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T12:56:09.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAuditService.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IAuditService.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Interfaces\\IAuditService.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IAuditService.cs",
+              "RelativeToolTip": "TradeNet11\\Interfaces\\IAuditService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T12:54:24.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProgramComplianceController.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Controllers\\ProgramComplianceController.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Controllers\\ProgramComplianceController.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Controllers\\ProgramComplianceController.cs",
+              "RelativeToolTip": "TradeNet11\\Controllers\\ProgramComplianceController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:13:08.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Controllers\\NotificationController.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "TradeNet11\\Controllers\\NotificationController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:12:37.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ComplianceDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Controllers\\ComplianceDashboardController.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Controllers\\ComplianceDashboardController.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Controllers\\ComplianceDashboardController.cs",
+              "RelativeToolTip": "TradeNet11\\Controllers\\ComplianceDashboardController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:12:47.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuditController.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Controllers\\AuditController.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Controllers\\AuditController.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Controllers\\AuditController.cs",
+              "RelativeToolTip": "TradeNet11\\Controllers\\AuditController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAA9wB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:12:59.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\ProgramCompliance\\Index.cshtml",
+              "RelativeDocumentMoniker": "TradeNet11\\Views\\ProgramCompliance\\Index.cshtml",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\ProgramCompliance\\Index.cshtml",
+              "RelativeToolTip": "TradeNet11\\Views\\ProgramCompliance\\Index.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAADsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T12:15:00.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Notification\\Index.cshtml",
+              "RelativeDocumentMoniker": "TradeNet11\\Views\\Notification\\Index.cshtml",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Notification\\Index.cshtml",
+              "RelativeToolTip": "TradeNet11\\Views\\Notification\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T12:13:36.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TradeNet11\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TradeNet11\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-25T08:21:54.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_CaseDetailModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\ComplianceDashboard\\_CaseDetailModal.cshtml",
+              "RelativeDocumentMoniker": "TradeNet11\\Views\\ComplianceDashboard\\_CaseDetailModal.cshtml",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\ComplianceDashboard\\_CaseDetailModal.cshtml",
+              "RelativeToolTip": "TradeNet11\\Views\\ComplianceDashboard\\_CaseDetailModal.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAD0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T12:14:08.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\ComplianceDashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "TradeNet11\\Views\\ComplianceDashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\ComplianceDashboard\\Index.cshtml",
+              "RelativeToolTip": "TradeNet11\\Views\\ComplianceDashboard\\Index.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGoAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T12:13:53.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Audit\\Index.cshtml",
+              "RelativeDocumentMoniker": "TradeNet11\\Views\\Audit\\Index.cshtml",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Audit\\Index.cshtml",
+              "RelativeToolTip": "TradeNet11\\Views\\Audit\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T12:14:20.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Audit\\Details.cshtml",
+              "RelativeDocumentMoniker": "TradeNet11\\Views\\Audit\\Details.cshtml",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Audit\\Details.cshtml",
+              "RelativeToolTip": "TradeNet11\\Views\\Audit\\Details.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T12:14:34.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Audit\\Create.cshtml",
+              "RelativeDocumentMoniker": "TradeNet11\\Views\\Audit\\Create.cshtml",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Audit\\Create.cshtml",
+              "RelativeToolTip": "TradeNet11\\Views\\Audit\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T12:14:43.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProgramComplianceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\ProgramComplianceRepository.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Repositories\\ProgramComplianceRepository.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\ProgramComplianceRepository.cs",
+              "RelativeToolTip": "TradeNet11\\Repositories\\ProgramComplianceRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:11:16.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ComplianceRecordRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\ComplianceRecordRepository.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Repositories\\ComplianceRecordRepository.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\ComplianceRecordRepository.cs",
+              "RelativeToolTip": "TradeNet11\\Repositories\\ComplianceRecordRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:11:23.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ComplianceOfficerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\ComplianceOfficerRepository.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Repositories\\ComplianceOfficerRepository.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\ComplianceOfficerRepository.cs",
+              "RelativeToolTip": "TradeNet11\\Repositories\\ComplianceOfficerRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:10:39.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "ComplianceNotificationRepository.cs",
               "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\ComplianceNotificationRepository.cs",
               "RelativeDocumentMoniker": "TradeNet11\\Repositories\\ComplianceNotificationRepository.cs",
               "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\ComplianceNotificationRepository.cs",
               "RelativeToolTip": "TradeNet11\\Repositories\\ComplianceNotificationRepository.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAtwCMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-24T12:10:48.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "TradeNet11",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\TradeNet11.csproj",
-              "RelativeDocumentMoniker": "TradeNet11\\TradeNet11.csproj",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\TradeNet11.csproj",
-              "RelativeToolTip": "TradeNet11\\TradeNet11.csproj",
-              "ViewState": "AgIAAAQAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-26T08:50:23.786Z",
+              "DocumentIndex": 30,
+              "Title": "ComplianceCaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\ComplianceCaseRepository.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Repositories\\ComplianceCaseRepository.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\ComplianceCaseRepository.cs",
+              "RelativeToolTip": "TradeNet11\\Repositories\\ComplianceCaseRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowBwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:10:57.176Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 31,
+              "Title": "AuditRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\AuditRepository.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Repositories\\AuditRepository.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\AuditRepository.cs",
+              "RelativeToolTip": "TradeNet11\\Repositories\\AuditRepository.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwCwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:11:06.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IComplianceNotificationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IComplianceNotificationRepository.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Interfaces\\IComplianceNotificationRepository.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IComplianceNotificationRepository.cs",
+              "RelativeToolTip": "TradeNet11\\Interfaces\\IComplianceNotificationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:10:04.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IComplianceCaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IComplianceCaseRepository.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Interfaces\\IComplianceCaseRepository.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IComplianceCaseRepository.cs",
+              "RelativeToolTip": "TradeNet11\\Interfaces\\IComplianceCaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:10:11.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IAuditRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IAuditRepository.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Interfaces\\IAuditRepository.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IAuditRepository.cs",
+              "RelativeToolTip": "TradeNet11\\Interfaces\\IAuditRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:10:17.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ProgramComplianceService.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Services\\ProgramComplianceService.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Services\\ProgramComplianceService.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Services\\ProgramComplianceService.cs",
+              "RelativeToolTip": "TradeNet11\\Services\\ProgramComplianceService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAmwBMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:12:16.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ComplianceNotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Services\\ComplianceNotificationService.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Services\\ComplianceNotificationService.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Services\\ComplianceNotificationService.cs",
+              "RelativeToolTip": "TradeNet11\\Services\\ComplianceNotificationService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:11:42.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "TradeNet11\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAOYAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T18:56:55.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20260324130000_AddAuditIdToComplianceNotification.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Migrations\\20260324130000_AddAuditIdToComplianceNotification.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Migrations\\20260324130000_AddAuditIdToComplianceNotification.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Migrations\\20260324130000_AddAuditIdToComplianceNotification.cs",
+              "RelativeToolTip": "TradeNet11\\Migrations\\20260324130000_AddAuditIdToComplianceNotification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T19:14:43.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20260324130000_AddAuditIdToComplianceNotification.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Migrations\\20260324130000_AddAuditIdToComplianceNotification.Designer.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Migrations\\20260324130000_AddAuditIdToComplianceNotification.Designer.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Migrations\\20260324130000_AddAuditIdToComplianceNotification.Designer.cs",
+              "RelativeToolTip": "TradeNet11\\Migrations\\20260324130000_AddAuditIdToComplianceNotification.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T19:15:41.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\appsettings.json",
+              "RelativeDocumentMoniker": "TradeNet11\\appsettings.json",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\appsettings.json",
+              "RelativeToolTip": "TradeNet11\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T12:15:37.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
               "Title": "IComplianceOfficerRepository.cs",
               "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IComplianceOfficerRepository.cs",
               "RelativeDocumentMoniker": "TradeNet11\\Interfaces\\IComplianceOfficerRepository.cs",
@@ -290,379 +767,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\appsettings.json",
-              "RelativeDocumentMoniker": "TradeNet11\\appsettings.json",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\appsettings.json",
-              "RelativeToolTip": "TradeNet11\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAIAAACXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-24T12:15:37.094Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20260324122801_Table.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Migrations\\20260324122801_Table.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Migrations\\20260324122801_Table.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Migrations\\20260324122801_Table.cs",
-              "RelativeToolTip": "TradeNet11\\Migrations\\20260324122801_Table.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAQwAcAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 39,
+              "Title": "ComplianceCase.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Models\\ComplianceCase.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Models\\ComplianceCase.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Models\\ComplianceCase.cs",
+              "RelativeToolTip": "TradeNet11\\Models\\ComplianceCase.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAgAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:28:02.585Z"
+              "WhenOpened": "2026-03-24T12:09:01.973Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "TradeNet11\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "TradeNet11\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAIBJwAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T12:15:13.556Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "TradeNet11\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAtwEsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:09:51.146Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\ProgramCompliance\\Index.cshtml",
-              "RelativeDocumentMoniker": "TradeNet11\\Views\\ProgramCompliance\\Index.cshtml",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\ProgramCompliance\\Index.cshtml",
-              "RelativeToolTip": "TradeNet11\\Views\\ProgramCompliance\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwGEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T12:15:00.746Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Audit\\Create.cshtml",
-              "RelativeDocumentMoniker": "TradeNet11\\Views\\Audit\\Create.cshtml",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Audit\\Create.cshtml",
-              "RelativeToolTip": "TradeNet11\\Views\\Audit\\Create.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAIBJwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T12:14:43.581Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Audit\\Details.cshtml",
-              "RelativeDocumentMoniker": "TradeNet11\\Views\\Audit\\Details.cshtml",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Audit\\Details.cshtml",
-              "RelativeToolTip": "TradeNet11\\Views\\Audit\\Details.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAIBJwEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T12:14:34.524Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Audit\\Index.cshtml",
-              "RelativeDocumentMoniker": "TradeNet11\\Views\\Audit\\Index.cshtml",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Audit\\Index.cshtml",
-              "RelativeToolTip": "TradeNet11\\Views\\Audit\\Index.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAIBJwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T12:14:20.181Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_CaseDetailModal.cshtml",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\ComplianceDashboard\\_CaseDetailModal.cshtml",
-              "RelativeDocumentMoniker": "TradeNet11\\Views\\ComplianceDashboard\\_CaseDetailModal.cshtml",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\ComplianceDashboard\\_CaseDetailModal.cshtml",
-              "RelativeToolTip": "TradeNet11\\Views\\ComplianceDashboard\\_CaseDetailModal.cshtml",
-              "ViewState": "AgIAACIAAAAAAAAAAIBJwEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T12:14:08.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\ComplianceDashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "TradeNet11\\Views\\ComplianceDashboard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\ComplianceDashboard\\Index.cshtml",
-              "RelativeToolTip": "TradeNet11\\Views\\ComplianceDashboard\\Index.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAABRwG8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T12:13:53.177Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Notification\\Index.cshtml",
-              "RelativeDocumentMoniker": "TradeNet11\\Views\\Notification\\Index.cshtml",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Views\\Notification\\Index.cshtml",
-              "RelativeToolTip": "TradeNet11\\Views\\Notification\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T12:13:36.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ProgramComplianceController.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Controllers\\ProgramComplianceController.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Controllers\\ProgramComplianceController.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Controllers\\ProgramComplianceController.cs",
-              "RelativeToolTip": "TradeNet11\\Controllers\\ProgramComplianceController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAABBwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:13:08.905Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AuditController.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Controllers\\AuditController.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Controllers\\AuditController.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Controllers\\AuditController.cs",
-              "RelativeToolTip": "TradeNet11\\Controllers\\AuditController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAABBwD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:12:59.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ComplianceDashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Controllers\\ComplianceDashboardController.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Controllers\\ComplianceDashboardController.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Controllers\\ComplianceDashboardController.cs",
-              "RelativeToolTip": "TradeNet11\\Controllers\\ComplianceDashboardController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAABBwC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:12:47.776Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "NotificationController.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Controllers\\NotificationController.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Controllers\\NotificationController.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Controllers\\NotificationController.cs",
-              "RelativeToolTip": "TradeNet11\\Controllers\\NotificationController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAABBwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:12:37.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ProgramComplianceService.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Services\\ProgramComplianceService.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Services\\ProgramComplianceService.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Services\\ProgramComplianceService.cs",
-              "RelativeToolTip": "TradeNet11\\Services\\ProgramComplianceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:12:16.643Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AuditService.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Services\\AuditService.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Services\\AuditService.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Services\\AuditService.cs",
-              "RelativeToolTip": "TradeNet11\\Services\\AuditService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:12:03.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ComplianceCaseService.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Services\\ComplianceCaseService.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Services\\ComplianceCaseService.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Services\\ComplianceCaseService.cs",
-              "RelativeToolTip": "TradeNet11\\Services\\ComplianceCaseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:11:53.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ComplianceNotificationService.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Services\\ComplianceNotificationService.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Services\\ComplianceNotificationService.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Services\\ComplianceNotificationService.cs",
-              "RelativeToolTip": "TradeNet11\\Services\\ComplianceNotificationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:11:42.574Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ComplianceRecordRepository.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\ComplianceRecordRepository.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Repositories\\ComplianceRecordRepository.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\ComplianceRecordRepository.cs",
-              "RelativeToolTip": "TradeNet11\\Repositories\\ComplianceRecordRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:11:23.616Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ProgramComplianceRepository.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\ProgramComplianceRepository.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Repositories\\ProgramComplianceRepository.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\ProgramComplianceRepository.cs",
-              "RelativeToolTip": "TradeNet11\\Repositories\\ProgramComplianceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:11:16.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "AuditRepository.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\AuditRepository.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Repositories\\AuditRepository.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\AuditRepository.cs",
-              "RelativeToolTip": "TradeNet11\\Repositories\\AuditRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:11:06.148Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ComplianceOfficerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\ComplianceOfficerRepository.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Repositories\\ComplianceOfficerRepository.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Repositories\\ComplianceOfficerRepository.cs",
-              "RelativeToolTip": "TradeNet11\\Repositories\\ComplianceOfficerRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:10:39.441Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "IComplianceRecordRepository.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IComplianceRecordRepository.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Interfaces\\IComplianceRecordRepository.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IComplianceRecordRepository.cs",
-              "RelativeToolTip": "TradeNet11\\Interfaces\\IComplianceRecordRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:10:32.012Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IProgramComplianceRepository.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IProgramComplianceRepository.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Interfaces\\IProgramComplianceRepository.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IProgramComplianceRepository.cs",
-              "RelativeToolTip": "TradeNet11\\Interfaces\\IProgramComplianceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:10:24.438Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IAuditRepository.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IAuditRepository.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Interfaces\\IAuditRepository.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IAuditRepository.cs",
-              "RelativeToolTip": "TradeNet11\\Interfaces\\IAuditRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:10:17.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "IComplianceCaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IComplianceCaseRepository.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Interfaces\\IComplianceCaseRepository.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IComplianceCaseRepository.cs",
-              "RelativeToolTip": "TradeNet11\\Interfaces\\IComplianceCaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:10:11.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "IComplianceNotificationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IComplianceNotificationRepository.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Interfaces\\IComplianceNotificationRepository.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IComplianceNotificationRepository.cs",
-              "RelativeToolTip": "TradeNet11\\Interfaces\\IComplianceNotificationRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:10:04.889Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Audit.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Models\\Audit.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Models\\Audit.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Models\\Audit.cs",
-              "RelativeToolTip": "TradeNet11\\Models\\Audit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:09:09.961Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ComplianceNotification.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Models\\ComplianceNotification.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Models\\ComplianceNotification.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Models\\ComplianceNotification.cs",
-              "RelativeToolTip": "TradeNet11\\Models\\ComplianceNotification.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:08:52.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "CaseDetailViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Models\\ViewModels\\CaseDetailViewModel.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Models\\ViewModels\\CaseDetailViewModel.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Models\\ViewModels\\CaseDetailViewModel.cs",
-              "RelativeToolTip": "TradeNet11\\Models\\ViewModels\\CaseDetailViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:09:41.811Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "ComplianceOfficer.cs",
               "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Models\\ComplianceOfficer.cs",
               "RelativeDocumentMoniker": "TradeNet11\\Models\\ComplianceOfficer.cs",
@@ -674,19 +791,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "ComplianceRecord.cs",
               "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Models\\ComplianceRecord.cs",
               "RelativeDocumentMoniker": "TradeNet11\\Models\\ComplianceRecord.cs",
               "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Models\\ComplianceRecord.cs",
               "RelativeToolTip": "TradeNet11\\Models\\ComplianceRecord.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-24T12:09:27.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "TradeNet11\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "TradeNet11\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-26T09:31:07.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TradeNet11\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TradeNet11\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-26T09:23:29.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "TradeNet11\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "TradeNet11\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOEBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-24T12:45:10.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "TradeNet11.csproj",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\TradeNet11.csproj",
+              "RelativeDocumentMoniker": "TradeNet11\\TradeNet11.csproj",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\TradeNet11.csproj",
+              "RelativeToolTip": "TradeNet11\\TradeNet11.csproj",
+              "ViewState": "AgIAAAQAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-26T08:50:23.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IProgramComplianceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IProgramComplianceRepository.cs",
+              "RelativeDocumentMoniker": "TradeNet11\\Interfaces\\IProgramComplianceRepository.cs",
+              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Interfaces\\IProgramComplianceRepository.cs",
+              "RelativeToolTip": "TradeNet11\\Interfaces\\IProgramComplianceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:10:24.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
               "Title": "ProgramCompliance.cs",
               "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Models\\ProgramCompliance.cs",
               "RelativeDocumentMoniker": "TradeNet11\\Models\\ProgramCompliance.cs",
@@ -695,18 +872,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-24T12:09:19.018Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "ComplianceCase.cs",
-              "DocumentMoniker": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Models\\ComplianceCase.cs",
-              "RelativeDocumentMoniker": "TradeNet11\\Models\\ComplianceCase.cs",
-              "ToolTip": "C:\\Users\\2481409\\source\\repos\\TradeNet11\\TradeNet11\\Models\\ComplianceCase.cs",
-              "RelativeToolTip": "TradeNet11\\Models\\ComplianceCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T12:09:01.973Z"
             }
           ]
         }

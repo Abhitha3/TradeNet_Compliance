@@ -28,10 +28,10 @@ namespace TradeNet11
             builder.Services.AddScoped<IComplianceRecordRepository, ComplianceRecordRepository>();
 
             // Services
-            builder.Services.AddScoped<ComplianceNotificationService>();
-            builder.Services.AddScoped<ComplianceCaseService>();
-            builder.Services.AddScoped<AuditService>();
-            builder.Services.AddScoped<ProgramComplianceService>();
+            builder.Services.AddScoped<IComplianceNotificationService, ComplianceNotificationService>();
+            builder.Services.AddScoped<IComplianceCaseService, ComplianceCaseService>();
+            builder.Services.AddScoped<IAuditService, AuditService>();
+            builder.Services.AddScoped<IProgramComplianceService, ProgramComplianceService>();
 
             var app = builder.Build();
 

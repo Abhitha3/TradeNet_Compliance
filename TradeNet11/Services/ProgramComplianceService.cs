@@ -3,7 +3,7 @@ using TradeNet11.Models;
 
 namespace TradeNet11.Services
 {
-    public class ProgramComplianceService
+    public class ProgramComplianceService : IProgramComplianceService
     {
         private readonly IProgramComplianceRepository _programRepo;
 

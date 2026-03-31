@@ -1,13 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
-using TradeNet11.Services;
+using TradeNet11.Interfaces;
 
 namespace TradeNet11.Controllers
 {
     public class ProgramComplianceController : Controller
     {
-        private readonly ProgramComplianceService _programService;
+        private readonly IProgramComplianceService _programService;
 
-        public ProgramComplianceController(ProgramComplianceService programService)
+        public ProgramComplianceController(IProgramComplianceService programService)
         {
             _programService = programService;
         }

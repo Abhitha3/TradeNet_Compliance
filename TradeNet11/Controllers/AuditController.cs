@@ -1,14 +1,14 @@
 using Microsoft.AspNetCore.Mvc;
+using TradeNet11.Interfaces;
 using TradeNet11.Models;
-using TradeNet11.Services;
 
 namespace TradeNet11.Controllers
 {
     public class AuditController : Controller
     {
-        private readonly AuditService _auditService;
+        private readonly IAuditService _auditService;
 
-        public AuditController(AuditService auditService)
+        public AuditController(IAuditService auditService)
         {
             _auditService = auditService;
         }

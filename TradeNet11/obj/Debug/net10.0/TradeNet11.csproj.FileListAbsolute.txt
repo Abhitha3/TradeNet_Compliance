@@ -223,3 +223,4 @@ C:\Users\2481409\source\repos\TradeNet11\TradeNet11\obj\Debug\net10.0\TradeNet11
 C:\Users\2481409\source\repos\TradeNet11\TradeNet11\obj\Debug\net10.0\TradeNet11.genruntimeconfig.cache
 C:\Users\2481409\source\repos\TradeNet11\TradeNet11\obj\Debug\net10.0\ref\TradeNet11.dll
 C:\Users\2481409\source\repos\TradeNet11\TradeNet11\obj\Debug\net10.0\compressed\6adujhzk9o-{0}-fjdlo6sdvq-fjdlo6sdvq.gz
+C:\Users\2481409\source\repos\TradeNet11\TradeNet11\obj\Debug\net10.0\TradeNet11.sourcelink.json

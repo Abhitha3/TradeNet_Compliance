@@ -40,6 +40,10 @@ else
                 {
                     <a asp-controller="ComplianceDashboard" asp-action="Index" class="btn-tn btn-accent">Open</a>
                 }
+                @if (n.AuditId.HasValue)
+                {
+                    <a asp-controller="Audit" asp-action="Details" asp-route-id="@n.AuditId" class="btn-tn btn-accent">Open Audit</a>
+                }
             </div>
         </div>
     }

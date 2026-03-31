@@ -3,7 +3,7 @@ using TradeNet11.Models;
 
 namespace TradeNet11.Services
 {
-    public class AuditService
+    public class AuditService : IAuditService
     {
         private readonly IAuditRepository _auditRepo;
 

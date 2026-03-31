@@ -1,0 +1,29 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using TradeNet11.Interfaces;
+
+namespace TradeNet11.Controllers
+{
+    public class NotificationController : Controller
+    {
+        private readonly IComplianceNotificationService _notificationService;
+
+        public NotificationController(IComplianceNotificationService notificationService)
+        {
+            _notificationService = notificationService;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var notifications = await _notificationService.GetAllNotificationsAsync();
+            return View(notifications);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> MarkAsRead(int id)
+        {
+            await _notificationService.MarkAsReadAsync(id);
+            return RedirectToAction(nameof(Index));
+        }
+    }
+}

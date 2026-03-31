@@ -1,0 +1,29 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using TradeNet11.Interfaces;
+
+namespace TradeNet11.Controllers
+{
+    public class ProgramComplianceController : Controller
+    {
+        private readonly IProgramComplianceService _programService;
+
+        public ProgramComplianceController(IProgramComplianceService programService)
+        {
+            _programService = programService;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var programs = await _programService.GetAllAsync();
+            return View(programs);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> UpdateEligibility(int id, string eligibilityStatus, bool isMisuseFlag, string? remarks)
+        {
+            await _programService.UpdateEligibilityAsync(id, eligibilityStatus, isMisuseFlag, remarks);
+            return RedirectToAction(nameof(Index));
+        }
+    }
+}
